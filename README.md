@@ -3,8 +3,17 @@
 Learning in public: my path to becoming an inference systems engineer.
 
 **Status:** kicks off after Oct 10, 2026 (currently heads-down in an interview sprint).
-**Proof-of-work target:** a FireRouter-style cache-aware model router over a benchmarked
-vLLM serving lab, plus one real custom CUDA kernel.
+
+## 🔨 What I'm building
+
+**A Fireworks-style inference router** — a cache-aware model router over vLLM
+that routes each request to the right-sized model (small vs large) to optimize
+quality-vs-cost, evaluated on GSM8K/MMLU subsets with real TTFT/TPOT numbers.
+Think FireRouter: prefix-cache-aware routing across a heterogeneous model fleet.
+
+Status: flagship build — starts Oct 11, 2026. Design notes land here as I go.
+
+## The curriculum
 
 ## Phase 0 — Get a GPU box
 Rent a single-GPU environment (e.g. 24GB RTX 4090 on RunPod / Vast.ai).
