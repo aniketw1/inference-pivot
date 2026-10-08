@@ -11,7 +11,8 @@ that routes each request to the right-sized model (small vs large) to optimize
 quality-vs-cost, evaluated on GSM8K/MMLU subsets with real TTFT/TPOT numbers.
 Think FireRouter: prefix-cache-aware routing across a heterogeneous model fleet.
 
-Status: flagship build — starts Oct 11, 2026. Design notes land here as I go.
+Status: flagship build — starts Oct 11, 2026. Design notes land here as I go:
+[router/DESIGN.md](router/DESIGN.md) · [learning-log.md](learning-log.md).
 
 ## The curriculum
 
